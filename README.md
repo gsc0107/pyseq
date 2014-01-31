@@ -8,13 +8,16 @@ A place to store various python based sequence manipulation stuff.
 
 Should be as simple as
 
-    pip install pyseq
+    git clone https://github.com/minillinim/pyseq.git
+    cd pyseq
+    python setup.py install
 
 ## Example usage
 
-	from pyseq import Fastx
-	f = Fastx()
-	print f.revComp("ACTTGTGGC")
+	>>> from pyseq.pyseq import Fastx
+	>>> f = Fastx()
+	>>> f.revComp("AGCCTCCG")
+	'CGGAGGCT'
 
 ## Help
 
